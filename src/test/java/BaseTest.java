@@ -48,7 +48,6 @@ public class BaseTest {
     public void afterTest(){
         // Close driver.
         driver.close();
-        driver.quit();
     }
 
     protected static WebDriver startBrowser() {
